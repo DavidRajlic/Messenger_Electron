@@ -1,0 +1,23 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRajlic/Messenger_Electron.git"
+  },
+  "author": "David Rajlič",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRajlic/Messenger_Electron/issues"
+  },
+  "homepage": "https://github.com/DavidRajlic/Messenger_Electron#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.3.1"
+  }
+}
