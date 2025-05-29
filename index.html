@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
-  </head>
-  <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glavna stran</title>
+  <link id="theme-style" rel="stylesheet" href="styles/light.css">
+</head>
+<body>
+  <h1>Dobrodošel</h1>
+  <button id="loadBtn">Naloži podatke</button>
+
+  <div id="contact">
+    <p><strong>Ime:</strong> <span id="firstName"></span></p>
+    <p><strong>Priimek:</strong> <span id="lastName"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Telefon:</strong> <span id="phone"></span></p>
+    <p><strong>Slika:</strong> <img id="image" style="max-width: 50px;" /></p>
+  </div>
+  <button id="settings-btn">Nastavitve</button>
+  <script src="renderer.js"></script>
+</body>
 </html>
