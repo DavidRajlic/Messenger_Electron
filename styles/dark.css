@@ -1,8 +1,52 @@
 body {
-  background-color: #121212;
+  background-color: black;
   color: white;
 }
 button {
-  background-color: #333;
+  background-color: black;
   color: white;
+  cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;   
+}
+
+
+#btn-container button {
+   margin: 5px;
+   border: 2px white solid;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-pic img{
+    display: flex;
+    width: 80px;
+}
+
+#contact {
+    margin-top: 10px;
+    background-color: gray;
+    padding: 10px;
+}
+
+#contact p{
+   display: flex;
+   justify-content: center;
+}
+
+#contact strong{
+   margin-right: 3px;
 }
