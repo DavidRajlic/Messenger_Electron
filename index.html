@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Glavna stran</title>
-  <link id="theme-style" rel="stylesheet" href="styles/light.css">
-</head>
-<body>
-  <h1>Dobrodošel</h1>
-  <button id="loadBtn">Naloži podatke</button>
 
-  <div id="contact">
-    <p><strong>Ime:</strong> <span id="firstName"></span></p>
-    <p><strong>Priimek:</strong> <span id="lastName"></span></p>
-    <p><strong>Email:</strong> <span id="email"></span></p>
-    <p><strong>Telefon:</strong> <span id="phone"></span></p>
-    <p><strong>Slika:</strong> <img id="image" style="max-width: 50px;" /></p>
-  </div>
-  <button id="settings-btn">Nastavitve</button>
-  <script src="renderer.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Glavna stran</title>
+    <link id="theme-style" rel="stylesheet" href="styles/light.css">
+</head>
+
+<body>
+    <h1>Stik</h1>
+    <div id="btn-container">
+        <button id="loadBtn">Naloži podatke</button>
+        <button id="settings-btn">Nastavitve</button>
+    </div>
+    
+
+    <div id="contact">
+        <div id="profile-pic"> <img id="image"/></div>
+       <p> <strong id="firstName"></strong> <strong id="lastName"></strong></p> 
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Telefon:</strong> <span id="phone"></span></p>
+        <p><strong>Država:</strong> <span id="country"></span></p>
+       
+    </div>
+
+    <script src="renderer.js"></script>
 </body>
+
 </html>
