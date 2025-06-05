@@ -36,6 +36,7 @@ function showContact(contact) {
   document.getElementById('lastName').textContent = contact.lastName;
   document.getElementById('email').textContent = contact.email;
   document.getElementById('phone').textContent = contact.phone;
+  document.getElementById('country').textContent = contact.country;
    if (contact.image) {
     console.log(contact.image)
     image.src = `images/${contact.image}`;
